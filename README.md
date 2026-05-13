@@ -1,2 +1,3 @@
-# ad_digital_twin
-Creation of Digital Twins for High-Fidelity Simulation in Autonomous Driving
+# Creation of Digital Twins for High-Fidelity Simulation in Autonomous Driving
+
+The main objective of this project is to integrate Carla’s tools for high-fidelity simulation and Sumo’s tools for generating realistic traffic. The goal would be to study, analyze, and develop the necessary workflow to automatically generate, given a specific real-world location—preferably in Spain—a simulated world that is faithful to reality (a digital twin) in terms of roads, signage, traffic, etc. This will require general knowledge of simulators, GIS tools for geographic data, and a mapping framework such as OpenStreetMap.
