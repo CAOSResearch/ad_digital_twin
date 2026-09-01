@@ -1,0 +1,20 @@
+requests
+lxml
+networkx
+pygame
+pyproj
+numpy
+rtree
+
+# El paquete "carla" no está en PyPI para esta versión: se instala aparte,
+# desde el wheel que trae la propia distribución de CARLA, dentro de su
+# carpeta PythonAPI/carla/dist/ (el nombre exacto del fichero depende de la
+# versión de CARLA y de Python instaladas).
+#
+# lxml/networkx/pygame los requiere el puente de co-simulación CARLA-SUMO
+# (<CARLA_ROOT>/Co-Simulation/Sumo/sumo_integration), usado por
+# scripts/05_ejecutar_cosimulacion_trafico.py.
+#
+# pyproj lo requiere sumolib para proyectar lat/lon a coordenadas de la red
+# (07_generar_trafico_desde_aforos.py); numpy lo requiere routeSampler.py de
+# SUMO; rtree acelera la búsqueda espacial de arcos en sumolib.
